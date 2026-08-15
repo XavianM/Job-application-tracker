@@ -2,63 +2,18 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="w-[1462px] h-[1145px] pb-[481px] relative bg-white inline-flex flex-col justify-start items-start gap-20 overflow-hidden">
+      {/* Top Navigation Bar */}
+      <div className="w-[1462px] h-16 pl-[360px] pt-4 pb-5 bg-zinc-300 outline outline-1 outline-neutral-400 inline-flex items-center gap-60">
+          <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Job Tracker </div>
+          <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Analytics </div>
+          <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Calendar </div>
+          <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Settings </div>
+      </div>
+      
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+        <div className="w-[964px] mt-[-50px] justify-start text-black text-[130px] font-normal font-['Crimson_Text'] leading-[136px]">The go-to <br/>place to track<br/>your applications</div>
+        <div className="w-[1037px] mt-10 justify-start text-black text-[30px] font-normal font-['Crimson_Text'] leading-10">Easily track job applications, monitor interviews, stay on top of deadlines, and gain insights into your job search - all from one dashboard.</div>
       </main>
     </div>
   );
