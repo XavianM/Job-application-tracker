@@ -1,3 +1,6 @@
+// Goal: Personalize the dashboard preview component //
+
+
 // components/DashboardPreview.tsx
 import { 
   Briefcase, 
