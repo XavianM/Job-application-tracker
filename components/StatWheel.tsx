@@ -68,13 +68,13 @@ export default function StatWheelAdvanced({
   const total = data.reduce((sum, item) => sum + item.value, 0);
 
   return (
-    <div className="relative w-52 h-52 mx-auto flex items-center justify-center">
+    <div className="relative w-80 h-80 mx-auto flex items-center justify-center">
       <ResponsiveContainer width="100%" height="100%">
         <PieChart>
           <Pie
             data={data}
-            innerRadius={55}
-            outerRadius={80}
+            innerRadius={95}
+            outerRadius={135}
             paddingAngle={4}
             dataKey="value"
             stroke="none"
@@ -90,7 +90,7 @@ export default function StatWheelAdvanced({
 
       {/* Center Statistic Overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center pointer-events-none">
-        <span className="text-2xl font-bold text-neutral-900">{total}</span>
+        <span className="text-4xl font-bold text-neutral-900">{total}</span>
         <span className="text-[10px] font-semibold uppercase tracking-wider text-neutral-400">
           Active Jobs
         </span>
