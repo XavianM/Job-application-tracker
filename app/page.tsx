@@ -1,11 +1,11 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <div className="w-[1462px] h-[1145px] pb-[481px] relative bg-white inline-flex flex-col justify-start items-start gap-20 overflow-hidden">
       {/* Top Navigation Bar */}
       <div className="w-[1462px] h-16 pl-[360px] pt-4 pb-5 bg-zinc-300 outline outline-1 outline-neutral-400 inline-flex items-center gap-60">
-          <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Job Tracker </div>
+          <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Applications </div>
           <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Analytics </div>
           <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Calendar </div>
           <div className="justify-center text-black text-sm font-bold font-['DM_Sans'] leading-5">Settings </div>
