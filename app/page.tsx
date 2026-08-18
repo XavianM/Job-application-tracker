@@ -1,6 +1,7 @@
 // app/page.tsx
 import NavBar from '@/components/Navbar';
 import HeroHeader from '@/components/HeroHeader';
+import DashboardPreview from '@/components/DashboardPreview';
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-8 pt-16 pb-24 space-y-20">
         {/* Hero Section (Headlines + How It Works) */}
         <HeroHeader />
+
+        {/* Dashboard Preview */}
+        <DashboardPreview />
       </main>
     </div>
   );
