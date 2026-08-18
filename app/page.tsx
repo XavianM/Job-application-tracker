@@ -4,8 +4,10 @@ import { Briefcase, Calendar, Settings, PencilLine } from 'lucide-react';
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#F9F9FB] text-neutral-900 font-sans antialiased">
+
       {/* Navigation Header */}
       <header className="w-full max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
+        
         {/* Logo */}
         <div className="flex items-center gap-3 font-bold text-lg tracking-tight">
           <div className="w-6 h-6 bg-black flex items-center justify-center rounded-[2px]">
