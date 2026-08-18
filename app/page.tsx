@@ -2,7 +2,7 @@
 import NavBar from '@/components/Navbar';
 import HeroHeader from '@/components/HeroHeader';
 import DashboardPreview from '@/components/DashboardPreview';
-import StatWheel from '@/components/StatWheel';
+
 
 export default function Home() {
   return (
@@ -18,8 +18,6 @@ export default function Home() {
         {/* Dashboard Preview */}
         <DashboardPreview />
 
-        {/* Stats Wheel */}
-        <StatWheel />
       </main>
     </div>
   );

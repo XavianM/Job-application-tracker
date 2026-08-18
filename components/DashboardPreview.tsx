@@ -15,11 +15,18 @@ import {
   DollarSign 
 } from 'lucide-react';
 
+import StatWheel from '@/components/StatWheel';
+
 export default function DashboardPreview() {
   return (
     <section className="w-full">
+        
       <div className="bg-white rounded-2xl border border-neutral-200/80 shadow-xl shadow-neutral-200/40 overflow-hidden">
         
+        {/* Stats Wheel */}
+        <div className="p-6 border-b border-neutral-100 bg-neutral-50/30">
+        <StatWheel />
+        </div>
         {/* Dashboard Header Bar */}
         <div className="px-6 py-4 border-b border-neutral-100 flex flex-wrap items-center justify-between gap-4 bg-neutral-50/50">
           <div>
@@ -38,6 +45,7 @@ export default function DashboardPreview() {
               />
             </div>
             <button className="flex items-center gap-1.5 bg-neutral-900 text-white text-xs font-medium px-3 py-1.5 rounded-lg hover:bg-neutral-800 transition-colors">
+              
               <Plus size={14} />
               <span>Add Job</span>
             </button>
@@ -203,7 +211,6 @@ export default function DashboardPreview() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
