@@ -2,13 +2,13 @@ import { Briefcase, Calendar, Settings, PencilLine } from 'lucide-react';
 
 export default function Navbar() {
   return (
-    <header className="w-full max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
+    <header className="w-full max-w-7xl mx-auto px-8 py-5 flex items-center justify-between border-b-2 border-black">
       {/* Logo */}
       <div className="flex items-center gap-3 font-bold text-lg tracking-tight">
         <div className="w-6 h-6 bg-black flex items-center justify-center rounded-[2px]">
           <PencilLine size={14} color="white" />
         </div>
-        <span>JobTrace</span>
+        <span className="font-nanum text-xl translate-y-0.5">JobTrace</span>
       </div>
 
       {/* Center Nav Links */}
