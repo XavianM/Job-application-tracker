@@ -102,7 +102,7 @@ export default function DashboardPreview() {
           <div className="flex flex-col gap-3">
             <div className="flex items-center justify-between pb-2">
               <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-blue-500" />
+                <span className="w-2 h-2 rounded-full bg-red-500" />
                 <h3 className="text-xs font-semibold text-neutral-700 uppercase tracking-wider">
                   Applied (2)
                 </h3>
@@ -152,7 +152,7 @@ export default function DashboardPreview() {
           <div className="flex flex-col gap-3">
             <div className="flex items-center justify-between pb-2">
               <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-purple-500" />
+                <span className="w-2 h-2 rounded-full bg-yellow-500" />
                 <h3 className="text-xs font-semibold text-neutral-700 uppercase tracking-wider">
                   Interviewing (1)
                 </h3>
@@ -161,10 +161,10 @@ export default function DashboardPreview() {
             </div>
 
             {/* Card 1 */}
-            <div className="bg-white p-4 rounded-xl border border-purple-200 shadow-sm hover:shadow-md transition-shadow ring-1 ring-purple-100">
+            <div className="bg-white p-4 rounded-xl border border-yellow-200 shadow-sm hover:shadow-md transition-shadow ring-1 ring-purple-100">
               <div className="flex justify-between items-start mb-2">
                 <span className="text-xs font-semibold text-neutral-900">Fullstack Engineer</span>
-                <span className="text-[10px] font-medium bg-purple-50 text-purple-600 px-2 py-0.5 rounded-full">Round 2</span>
+                <span className="text-[10px] font-medium bg-yellow-50 text-yellow-600 px-2 py-0.5 rounded-full">Round 2</span>
               </div>
               <div className="flex items-center gap-1.5 text-xs text-neutral-500 mb-3">
                 <Building2 size={12} />
@@ -173,7 +173,7 @@ export default function DashboardPreview() {
                 <MapPin size={12} />
                 <span>Remote</span>
               </div>
-              <div className="flex items-center justify-between pt-2 border-t border-neutral-100 text-[11px] text-purple-600 font-medium">
+              <div className="flex items-center justify-between pt-2 border-t border-neutral-100 text-[11px] text-yellow-600 font-medium">
                 <span>System Design Interview</span>
                 <span>Tomorrow</span>
               </div>
