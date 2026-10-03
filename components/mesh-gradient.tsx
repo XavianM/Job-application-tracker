@@ -89,7 +89,7 @@ export const MeshGradient = React.memo(function MeshGradient({
       <div
         ref={containerRef}
         className={cn(
-          "size-full bg-gradient-to-tr from-[#0a1a4a] via-[#1f4fd8] to-[#4c9bff]",
+          "size-full bg-gradient-to-tr from-[#052E1A] via-[#297347] to-[#619E75]",
           className,
         )}
         style={style}
@@ -110,13 +110,8 @@ export const MeshGradient = React.memo(function MeshGradient({
         width={size.width}
         height={size.height}
         colors={colors}
-        proportion={proportion}
-        softness={softness}
         distortion={distortion}
         swirl={swirl}
-        swirlIterations={swirlIterations}
-        shape={shape}
-        shapeScale={shapeScale}
         speed={speed}
         scale={scale}
         rotation={rotation}
