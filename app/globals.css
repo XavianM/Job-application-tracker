@@ -22,57 +22,8 @@ button:focus-visible {
   outline-offset: 5px;
 }
 
-.gradient-blob {
-  position: absolute;
-  width: 75vmax;
-  height: 75vmax;
-  border-radius: 50%;
-  filter: blur(100px);
-  animation: gradient-drift 24s ease-in-out infinite alternate;
-}
-
-.gradient-blob-one {
-  top: -50%;
-  left: -30%;
-  background: #619e75;
-}
-
-.gradient-blob-two {
-  top: -5%;
-  right: -35%;
-  background: #052e1a;
-  animation-duration: 28s;
-  animation-delay: -10s;
-}
-
-.gradient-blob-three {
-  bottom: -65%;
-  left: 10%;
-  background: rgb(97 158 117 / 60%);
-  animation-duration: 26s;
-  animation-delay: -17s;
-}
-
-@keyframes gradient-drift {
-  0% {
-    transform: translate(0, 0) scale(1);
-  }
-
-  50% {
-    transform: translate(12%, -8%) scale(1.12);
-  }
-
-  100% {
-    transform: translate(-8%, 15%) scale(0.96);
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
-  }
-
-  .gradient-blob {
-    animation: none;
   }
 }
