@@ -4,6 +4,21 @@
   --font-display: "Humane", "Arial Narrow", sans-serif;
 }
 
+@font-face {
+  font-family: "Humane";
+  src: url("/fonts/Humane-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Humane";
+  src: url("/fonts/Humane-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 24px;

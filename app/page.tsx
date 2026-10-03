@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar";
-{/*import Hero from "@/components/hero";
-import HowItWorks from "@/components/howitworks";
+import Hero from "@/components/hero";
+{/*import HowItWorks from "@/components/howitworks";
 import TrackerSection from "@/components/trackerSection";
 import FinalCTA from "@/components/finalCTA";
 import Footer from "@/components/footer";*/}
@@ -14,6 +14,7 @@ export default function Home() {
       <Navbar />
 
       <main>
+        <Hero />
       </main>
 
       
