@@ -26,10 +26,19 @@ export default function Hero() {
           of your job search.
         </h1>
 
-        <p className="mt-6 max-w-xl font-['DM_Sans'] text-xl leading-relaxed text-white sm:text-2xl">
-          Add applications manually or with AI, stay updated through
-          email, and keep every opportunity organized in one place.
+        <p
+          className="mt-6 w-full max-w-[620px] font-['DM_Sans'] text-[32px] font-normal
+          leading-[1.35] tracking-normal text-white"
+          >
+            Add applications manually or with AI, stay
+          <br />
+            updated through email,
+          <br />
+            and keep every opportunity organized in
+          <br />
+            one place.
         </p>
+        
 
         <div className="mt-8 flex flex-wrap gap-4">
           <a
