@@ -56,7 +56,7 @@ export default function Hero() {
             href="#how-it-works"
             className="
               rounded-full border-2 border-white/50
-              bg-white/10 px-9 py-3
+              bg-white/10 px-11 py-3
               font-['Humane'] text-3xl font-semibold text-white
               transition hover:bg-white/20
             "
