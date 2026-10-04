@@ -1,4 +1,4 @@
-//import TrackerPreview from "./trackerPreview";
+import TrackerPreview from "./trackerPreview";
 
 export default function Hero() {
   return (
@@ -57,7 +57,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/*<TrackerPreview />*/}
+      <TrackerPreview />
     </section>
   );
 }
