@@ -94,7 +94,7 @@ export default function HowItWorks() {
                 className="
                   inline-block rounded-full bg-[#052E1A]
                   px-4 py-1.5 font-['DM_Sans']
-                  font-bold text-[#EBE0CC]
+                  font-bold text-white
                 "
               >
                 {step.number}
@@ -104,14 +104,14 @@ export default function HowItWorks() {
               <h3
                 className="
                   mt-6 font-['Humane'] text-4xl
-                  font-bold leading-none text-[#EBE0CC]
+                  font-bold leading-none text-white
                 "
               >
                 {step.title}
               </h3>
 
               {/* Read the description from the current step's data */}
-              <p className="mt-3 font-['DM_Sans'] leading-7 text-[#EBE0CC]">
+              <p className="mt-3 font-['DM_Sans'] leading-7 text-white">
                 {step.description}
               </p>
             </article>
