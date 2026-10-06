@@ -1,10 +1,12 @@
+import DashboardPreview from "./dashboardPreview";
+
 export default function TrackerSection() {
   return (
     // Centers the section and adds space around it
     <section
       id="tracker"
       aria-labelledby="tracker-title"
-      className="mx-auto max-w-[1344px] px-4 py-20 sm:px-8"
+      className="mx-auto max-w-[1660px] px-4 py-20 sm:px-8"
     >
       {/* Heading and description */}
       <div className="mb-10">
@@ -39,6 +41,7 @@ export default function TrackerSection() {
         "
       >
         {/* Dashboard content will go here */}
+        <DashboardPreview />
       </div>
     </section>
   );
