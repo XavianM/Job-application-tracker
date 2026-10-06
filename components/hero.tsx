@@ -13,7 +13,7 @@ export default function Hero() {
         lg:pt-16
       "
     >
-      <div className="min-[776px]:max-[1021px]:text-center">
+      <div className="min-[574px]:max-[1023px]:text-center">
         <h1
           id="hero-title"
           className="
@@ -28,7 +28,7 @@ export default function Hero() {
 
         <p
           className="mt-6 w-full max-w-[620px] font-['DM_Sans'] text-[32px] font-normal
-          leading-[1.35] tracking-normal text-white min-[776px]:max-[1021px]:mx-auto"
+          leading-[1.35] tracking-normal text-white min-[574px]:max-[1023px]:mx-auto"
           >
             Add applications manually or with AI, stay
           <br />
@@ -40,7 +40,7 @@ export default function Hero() {
         </p>
         
 
-        <div className="mt-8 flex flex-wrap gap-4 min-[776px]:max-[1021px]:justify-center">
+        <div className="mt-8 flex flex-wrap gap-4 min-[574px]:max-[1023px]:justify-center">
           <a
             href="#get-started"
             className="
