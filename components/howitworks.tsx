@@ -89,16 +89,28 @@ export default function HowItWorks() {
                 md:pr-8 md:last:border-0 md:last:pr-0
               "
             >
+              <div className="flex items-center justify-between">
               {/* Display this step's number inside a dark green pill */}
-              <span
-                className="
-                  inline-block rounded-full bg-[#052E1A]
-                  px-4 py-1.5 font-['DM_Sans']
-                  font-bold text-white
-                "
-              >
-                {step.number}
-              </span>
+                <span
+                  className="
+                    inline-block rounded-full bg-[#052E1A]
+                    px-4 py-1.5 font-['DM_Sans']
+                    font-bold text-white
+                  "
+                >
+                  {step.number}
+                </span>
+                <span
+                  className="
+                    inline-block rounded-full bg-[#052E1A]
+                    px-4 py-1.5 font-['DM_Sans']
+                    font-bold text-black bg-[#E5EEE7]
+                  "
+                >
+                  Insert icons
+                </span>
+              </div>
+
 
               {/* Read the title from the current step's data */}
               <h3
