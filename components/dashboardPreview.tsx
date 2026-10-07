@@ -294,7 +294,7 @@ function ApplicationCard({
         focus-visible:outline-[#337A4D]
         ${
           selected
-            ? "border-[#337A4D] ring-1 ring-[#337A4D]"
+            ? "border-[#337A4D] ring-1 ring-inset ring-[#337A4D]"
             : "border-[#E8E0D5]"
         }
       `}
